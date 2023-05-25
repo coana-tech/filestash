@@ -1,7 +1,7 @@
 import { Files } from "../model/";
 import { notify, upload, randomString } from "../helpers/";
 import Path from "path";
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs";
 import { t } from "../locales/";
 
 export const sort = function(files, type) {

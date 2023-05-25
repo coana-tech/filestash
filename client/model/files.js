@@ -5,7 +5,7 @@ import {
     filetype, currentShare, currentBackend, appendShareToUrl,
 } from "../helpers/";
 
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs";
 import { cache } from "../helpers/";
 
 class FileSystem {

@@ -2,7 +2,7 @@
 import React from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { withRouter } from "react-router";
-import { Subject } from "rxjs/Subject";
+import { Subject } from "rxjs";
 
 import {
     NgIf, Fab, Icon, Dropdown, DropdownButton, DropdownList, DropdownItem,
